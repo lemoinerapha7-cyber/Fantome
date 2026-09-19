@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fantômes — Débusque les abonnements que tu paies sans t'en servir</title>
+<meta name="description" content="Envoie ton relevé bancaire, reçois sous 48 h la liste de tes abonnements oubliés, classés par coût annuel, avec les lettres de résiliation. 19 € une fois.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fantômes — Débusque les abonnements que tu paies sans t'en servir">
+<meta property="og:description" content="Ton relevé bancaire cache des prélèvements oubliés. On les trouve, tu les résilies.">
+<meta name="theme-color" content="#F5F0E6">
+<style>
+:root{--fond:#F5F0E6;--encre:#16161A;--accent:#C8371B;--gris:#5C5A55;--trait:#DCD5C4}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--fond);color:var(--encre);font:18px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:88px}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px}
+h1,h2,.chiffre{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-weight:700;line-height:1.1}
+.marque{padding:20px 0;font-family:Georgia,serif;font-weight:700;letter-spacing:.02em}
+h1{font-size:clamp(2.1rem,9vw,3.2rem);margin:12px 0 18px}
+h1 em{font-style:normal;color:var(--accent)}
+.sous{color:var(--gris);font-size:1.05rem;margin-bottom:26px}
+.btn{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:1.1rem;padding:18px 20px;border-radius:12px;min-height:56px}
+.btn:active{transform:translateY(1px)}
+.petit{font-size:.9rem;color:var(--gris);margin-top:10px;text-align:center}
+section{padding:44px 0;border-top:1px solid var(--trait);margin-top:44px}
+h2{font-size:1.7rem;margin-bottom:16px}
+.chiffre{font-size:3.4rem;color:var(--accent);display:block}
+.calcul{background:#fff;border:1px solid var(--trait);border-radius:12px;padding:20px;margin-top:8px}
+ol,ul{list-style:none}
+li{padding:14px 0;border-bottom:1px solid var(--trait)}
+li:last-child{border-bottom:0}
+li strong{display:block;font-size:1.1rem}
+.prix{font-family:Georgia,serif;font-size:2.6rem;font-weight:700}
+footer{padding:32px 0 20px;border-top:1px solid var(--trait);font-size:.9rem;color:var(--gris)}
+footer a{color:var(--gris);margin-right:14px;display:inline-block;padding:6px 0}
+.fixe{position:fixed;left:0;right:0;bottom:0;padding:12px 20px calc(12px + env(safe-area-inset-bottom));background:var(--fond);border-top:1px solid var(--trait)}
+.fixe .btn{max-width:600px;margin:0 auto;padding:15px 20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="marque">Fantômes</div>
+
+  <h1>Débusque les abonnements que tu paies <em>sans t'en servir.</em></h1>
+  <p class="sous">Envoie ton relevé bancaire. Sous 48 h, tu reçois la liste de tes prélèvements oubliés, classés par coût sur l'année, avec une lettre de résiliation prête pour chacun.</p>
+  <a class="btn" href="#" id="payer">Faire mon audit — 19 €</a>
+  <p class="petit">Paiement unique. Aucun abonnement.</p>
+
+  <section>
+    <h2>Petits prélèvements, grosse facture.</h2>
+    <p>Un essai jamais résilié, un service remplacé, une option activée une fois. Chaque prélèvement est trop petit pour se voir sur un relevé, et il tourne pendant des années.</p>
+    <div class="calcul">
+      <span class="chiffre">480 €</span>
+      Exemple : 5 abonnements oubliés à 8 € par mois font 480 € par an.
+    </div>
+  </section>
+
+  <section>
+    <h2>Ce que tu reçois</h2>
+    <ul>
+      <li><strong>Tous tes prélèvements réguliers repérés</strong>Même ceux que tu avais oubliés.</li>
+      <li><strong>Une liste classée par coût annuel</strong>Tu vois d'abord ceux qui pèsent le plus.</li>
+      <li><strong>Une lettre de résiliation pour chacun</strong>Tu n'as plus qu'à l'envoyer.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Comment ça se passe</h2>
+    <ol>
+      <li><strong>1. Tu paies 19 €.</strong>Paiement sécurisé.</li>
+      <li><strong>2. Tu envoies ton relevé</strong>Par email, en PDF, sur les 3 à 12 derniers mois.</li>
+      <li><strong>3. Tu reçois ton audit sous 48 h</strong>Ton relevé est supprimé une fois l'audit envoyé.</li>
+    </ol>
+    <p class="petit" style="text-align:left;margin-top:18px">Tu peux masquer les lignes personnelles avant l'envoi. Seuls les prélèvements comptent.</p>
+    <div style="margin-top:24px"><span class="prix">19 €</span> une fois.</div>
+    <a class="btn" href="#" style="margin-top:16px">Faire mon audit</a>
+  </section>
+
+  <footer>
+    <a href="/mentions.html">Mentions légales</a>
+    <a href="/cgv.html">CGV</a>
+    <a href="/confidentialite.html">Confidentialité</a>
+  </footer>
+</div>
+
+<div class="fixe"><a class="btn" href="#">Faire mon audit — 19 €</a></div>
+</body>
+</html>
